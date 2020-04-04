@@ -11,7 +11,7 @@ if ( file_exists( dirname(__FILE__) . '/../production-config.php' ) ) {
     include( dirname( __FILE__ ) . '/../production-config.php' );
 } else {
     define('WP_LOCAL_DEV', true);
-    include( dirname( __FILE__ ) . '/../local-config.sample.php' );
+    include( dirname( __FILE__ ) . '/../local-config.php' );
 }
 
 // ========================
